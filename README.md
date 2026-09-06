@@ -26,15 +26,14 @@ A Django web application that uses machine learning to predict stock prices and 
 
 1. Clone the repository
 ```bash
-   git clone https://github.com/shreya-User/Financely.git
-   cd Financely
+   git clone https://github.com/diyadesaleee/Financely-main.git
+   cd Financely-main
 ```
 2. Install dependencies
 ```bash
    pip install django prophet pandas matplotlib
 ```
 3. Download the trained model from [Google Drive](https://drive.google.com/file/d/1vGN0481ovU6mQZkgKO2lLAGMKnXVbufi/view?usp=sharing) and place it in the project root
-
 4. Run migrations and start the server
 ```bash
    python manage.py migrate
